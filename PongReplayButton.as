@@ -1,0 +1,1 @@
+﻿package code{	import flash.display.*;	import flash.events.*;	public class PongReplayButton extends MovieClip	{		public function PongReplayButton(aX:Number, aY:Number)		{			this.x = aX;			this.y = aY;			this.addEventListener(MouseEvent.MOUSE_OVER, buttonOver);		}		public function buttonOver(e:MouseEvent)		{			this.buttonMode = true;		}	}}

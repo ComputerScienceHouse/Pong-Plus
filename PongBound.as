@@ -1,0 +1,1 @@
+﻿package code{	import flash.display.MovieClip;	public class PongBound extends MovieClip	{		public function PongBound(aX:Number, aY:Number)		{			this.x = aX;			this.y = aY;		}	}}

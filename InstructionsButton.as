@@ -1,0 +1,1 @@
+﻿package code{	import flash.display.MovieClip;	import flash.events.*;	public class InstructionsButton extends MovieClip	{		public function InstructionsButton(aX:Number, aY:Number)		{			this.x = aX;			this.y = aY;			this.addEventListener(MouseEvent.MOUSE_OVER, onOver);		}		public function onOver(e:MouseEvent)		{			this.buttonMode = true;		}	}}

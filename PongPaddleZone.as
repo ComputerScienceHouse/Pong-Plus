@@ -1,0 +1,1 @@
+﻿package code{	import flash.display.MovieClip;	public class PongPaddleZone extends MovieClip	{		public function PongPaddleZone()		{			// constructor code		}	}}

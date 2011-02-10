@@ -1,0 +1,1 @@
+﻿package code{	import flash.display.MovieClip;	public class PowerUp extends MovieClip	{		var num:int = Math.random() * 4;		public function PowerUp()		{			this.gotoAndStop(num);					}	}}
